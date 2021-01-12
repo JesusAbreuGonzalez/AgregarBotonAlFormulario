@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Proyecto_Formulario_añadir_botón
+{
+    public partial class FormularioForm : Form
+    {
+        public FormularioForm()
+        {
+            InitializeComponent();
+        }
+
+        private void GuardarButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Mundo", "Saludo", MessageBoxButtons.YesNo);
+            MessageBox.Show("Hola Mundo", "Saludo", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+        }
+    }
+}
